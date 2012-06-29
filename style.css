@@ -77,7 +77,7 @@ pre {
 #wrapper, #headerimg {  margin: 0 auto; position: relative; }
     
     #headerimg #header-image { display: inline-block; }
-    #wrapper { width: 95% }
+    #wrapper { width: 95%; }
 
     
 #footer {
@@ -93,13 +93,13 @@ pre {
     padding: 0 10px; 
     }
     
-    /* #content { float: left; font-size: 1.1em; width: 517px; } */
+    #content { margin-right: -250px; float: left; width: 100%; border-right: none; }
     #content { font-size: 1.1em; }
     #content h2 { margin: 0 0 10px; }
     #content p { line-height: 1.5em; }
-    #content { float: left; }
+    #content > div { margin-right: 250px; border-right: 1px solid #363430; }
     
-    #sidebar { border-left: 0; float: right; width: 200px;  }
+    #sidebar { float: right; width: 200px;  }
     #sidebar h3 { color: #bd934f; margin: 15px 0 5px; font-variant: small-caps; font-size: 12px; }
     #sidebar h3 a { color: #bd934f; }
     #sidebar ul, #akismetwrap { margin: 0 0 10px; padding: 0; border-top: 1px solid #363430; border-bottom: 1px solid #363430; }
