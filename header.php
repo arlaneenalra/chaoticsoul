@@ -25,15 +25,18 @@
 <div id="header">
 	<h1><a href="<?php echo get_settings('home'); ?>/"><?php bloginfo('title'); ?></a></h1>
 	<div class="description"><?php bloginfo('description'); ?></div>
+
+    <!-- <div class="hr">&nbsp;</div> --> <!-- because IE sucks at styling HRs -->
+
+    <div id="headerimg" class="clearfix">
+	    <div id="header-image">
+            <div class="hr">&nbsp;</div>
+            <img alt="header image" src="<?php header_image() ?>" />
+        </div>
+    </div>
+
+    <div class="hr">&nbsp;</div>
 </div>
 
-<div class="hr">&nbsp;</div> <!-- because IE sucks at styling HRs -->
-
-<div id="headerimg" class="clearfix">
-	<div id="header-overlay"> </div>
-	<div id="header-image"><img alt="header image" src="<?php header_image() ?>" /></div>
-</div>
-
-<div class="hr">&nbsp;</div>
 
 <div id="wrapper" class="clearfix">
