@@ -1,11 +1,11 @@
 /*  
 Theme Name: ChaoticSoul
-Theme URI: http://labs.revyver.com/
+Theme URI: https://github.com/arlaneenalra/chaoticsoul
 Description: A dark 2 column theme based off of a certain designer's old website. 
-Version: 1.4
-Author: Bryan Veloso
-Author URI: http://avalonstar.com/
-Tags: fixed width, widgets, widget ready, valid XHTML, valid CSS, clean, dark, minimal, brown, right sidebar, custom header
+Version: 1.4 - tweaked
+Author: Bryan Veloso, Chris Salch
+Author URI: http://avalonstar.com/, http://chrissalch.com
+Tags: flexible width, widgets, widget ready, valid XHTML, valid CSS, clean, dark, minimal, brown, right sidebar, custom header
 */
 
 
@@ -97,7 +97,7 @@ pre {
     #content { font-size: 1.1em; }
     #content h2 { margin: 0 0 10px; }
     #content p { line-height: 1.5em; }
-    #content > div { margin-right: 250px; border-right: 1px solid #363430; }
+    #content > div { margin-right: 250px; }
     
     #sidebar { float: right; width: 200px;  }
     #sidebar h3 { color: #bd934f; margin: 15px 0 5px; font-variant: small-caps; font-size: 12px; }
