@@ -83,20 +83,23 @@ pre {
 #footer {
     font-family: Georgia, 'Times New Roman', serif; 
     color: #999;
+    width: 95%;
+    margin: 0 auto;
     }
     
 #content, #sidebar { 
     border-left: 1px solid #363430;
     border-right: 1px solid #363430;
     padding: 0 10px; 
-    overflow: hidden;
     }
     
-    #content { float: left; font-size: 1.1em; width: 517px; }
+    /* #content { float: left; font-size: 1.1em; width: 517px; } */
+    #content { font-size: 1.1em; }
     #content h2 { margin: 0 0 10px; }
     #content p { line-height: 1.5em; }
+    #content { float: left; }
     
-    #sidebar { border-left: 0; float: right; width: 200px; }
+    #sidebar { border-left: 0; float: right; width: 200px;  }
     #sidebar h3 { color: #bd934f; margin: 15px 0 5px; font-variant: small-caps; font-size: 12px; }
     #sidebar h3 a { color: #bd934f; }
     #sidebar ul, #akismetwrap { margin: 0 0 10px; padding: 0; border-top: 1px solid #363430; border-bottom: 1px solid #363430; }

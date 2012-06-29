@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    
+
     <div id="content" class="widecolumn">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div <?php post_class('post'); ?> id="post-<?php the_ID(); ?>">
