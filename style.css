@@ -94,9 +94,9 @@ pre {
     
     #content { margin-right: -250px; float: left; width: 100%; border-right: none; }
     #content { font-size: 1.1em; }
-    #content h2 { margin: 0 0 10px; }
+    #content h2 { margin-left: 0 0 250px; }
     #content p { line-height: 1.5em; }
-    #content > div { margin-right: 250px; }
+    #content > * { margin-right: 250px; }
     
     #sidebar { float: right; width: 200px;  }
     #sidebar h3 { color: #bd934f; margin: 15px 0 5px; font-variant: small-caps; font-size: 1.1em; }
