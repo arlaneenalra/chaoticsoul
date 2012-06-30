@@ -30,7 +30,9 @@ $content_width = 497;
 function widget_chaoticsoul_links() {
 	wp_list_bookmarks(array(
 		'title_before' => '<h3>', 
-		'title_after' => '</h3>', 
+		'title_after' => '</h3>',
+        'category_before' => '',
+        'category_after' => '',
 	));
 }
 
@@ -44,7 +46,7 @@ function widget_chaoticsoul_search() {
 
 function chaoticsoul_widget_init() {
 	register_sidebar(array(
-  	'before_widget' => '',
+		'before_widget' => '',
 		'after_widget' => '',
 		'before_title' => '<h3>',
 		'after_title' => '</h3>',
